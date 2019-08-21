@@ -950,7 +950,6 @@
     <Compile Include="Assets\enermyEvent_1.cs" />
     <Compile Include="Assets\enermyMove.cs" />
     <Compile Include="Assets\laserSound.cs" />
-    <Compile Include="Assets\spawnMissiles.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

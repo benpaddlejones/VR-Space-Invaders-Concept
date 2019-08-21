@@ -73,7 +73,6 @@
     <Compile Include="Assets\enermyEvent_1.cs" />
     <Compile Include="Assets\enermyMove.cs" />
     <Compile Include="Assets\laserSound.cs" />
-    <Compile Include="Assets\spawnMissiles.cs" />
     <None Include="Assets\MixedRealityToolkit.Providers\Version.txt" />
     <None Include="Assets\Effects\EffectExamples\Misc Effects\Shaders\Dissolve.shader" />
     <None Include="Assets\Effects\EffectExamples\Misc Effects\Shaders\FireFly.shader" />

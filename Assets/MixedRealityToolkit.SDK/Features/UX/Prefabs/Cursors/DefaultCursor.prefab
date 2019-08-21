@@ -505,7 +505,7 @@ MonoBehaviour:
   lookRotationBlend: 0
   PrimaryCursorVisual: {fileID: 4000014090385390}
   IsPointerDown: 0
-  defaultCursorDistance: 2
+  defaultCursorDistance: 100
   cursorStateData:
   - name: Observe
     cursorState: 0

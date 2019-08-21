@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class enermyMove : MonoBehaviour
 {
-    private Vector3 pos1 = new Vector3(25, -1, 30);
-    private Vector3 pos2 = new Vector3(-25, -1, 30);
+    private Vector3 pos1 = new Vector3(25, -1, 10);
+    private Vector3 pos2 = new Vector3(-25, -1, 10);
     public float speed;
 
     void Update()

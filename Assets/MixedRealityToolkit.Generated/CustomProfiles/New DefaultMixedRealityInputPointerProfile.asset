@@ -13,8 +13,12 @@ MonoBehaviour:
   m_Name: New DefaultMixedRealityInputPointerProfile
   m_EditorClassIdentifier: 
   isCustomProfile: 1
-  pointingExtent: 10
+  pointingExtent: 200
   pointingRaycastLayerMasks:
+  - serializedVersion: 2
+    m_Bits: 4294967295
+  - serializedVersion: 2
+    m_Bits: 4294967291
   - serializedVersion: 2
     m_Bits: 4294967291
   debugDrawPointingRays: 1

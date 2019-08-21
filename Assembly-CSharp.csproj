@@ -83,7 +83,6 @@
     <None Include="Assets\MixedRealityToolkit.Providers\License.txt" />
     <None Include="Assets\Effects\EffectExamples\Misc Effects\Shaders\Respawn.shader" />
     <None Include="Assets\Effects\EffectExamples\Magic Effects\Shaders\Ice.shader" />
-    <None Include="Assets\SkySerie Freebie\Hdri setup.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/benpa/Desktop/Git Projects/VR-Space-Invaders-Concept/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

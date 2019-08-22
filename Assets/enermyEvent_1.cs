@@ -8,6 +8,7 @@ public class enermyEvent_1 : MonoBehaviour
     public Rigidbody enermy;
     public AudioSource soundEffect;
     private int hitCount = 0;
+    public GameObject scoreScript;
 
     public void Start()
     {
@@ -30,6 +31,7 @@ public class enermyEvent_1 : MonoBehaviour
             enermy.useGravity = true;
             particleEffect.SetActive(true);
             Destroy(this, 10);
+            scoreManager.points = scoreManager.points + 1;
         }
     }
 }

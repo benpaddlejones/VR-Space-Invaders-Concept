@@ -6,6 +6,7 @@ TagManager:
   tags:
   - enermy
   - block
+  - backWall
   layers:
   - Default
   - TransparentFX

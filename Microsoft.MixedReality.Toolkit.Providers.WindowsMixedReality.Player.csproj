@@ -50,8 +50,8 @@
     <Reference Include="Microsoft.MixedReality.Toolkit">
       <HintPath>Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Utilities.Gltf">
-      <HintPath>Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Utilities.Gltf.dll</HintPath>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Gltf">
+      <HintPath>Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Gltf.dll</HintPath>
     </Reference>
     <Reference Include="MetroSupport/Managed/il2cpp/UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2018.4.6f1\Editor\Data\PlaybackEngines\MetroSupport/Managed/il2cpp/UnityEngine.dll</HintPath>
@@ -851,6 +851,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\MixedRealityToolkit.Providers\WindowsMixedReality\BaseWindowsMixedRealitySource.cs" />
+    <Compile Include="Assets\MixedRealityToolkit.Providers\WindowsMixedReality\Extensions\GestureRecognizerExtensions.cs" />
+    <Compile Include="Assets\MixedRealityToolkit.Providers\WindowsMixedReality\Extensions\InteractionSourceExtensions.cs" />
     <Compile Include="Assets\MixedRealityToolkit.Providers\WindowsMixedReality\WindowsMixedRealityArticulatedHand.cs" />
     <Compile Include="Assets\MixedRealityToolkit.Providers\WindowsMixedReality\WindowsMixedRealityController.cs" />
     <Compile Include="Assets\MixedRealityToolkit.Providers\WindowsMixedReality\WindowsMixedRealityDeviceManager.cs" />

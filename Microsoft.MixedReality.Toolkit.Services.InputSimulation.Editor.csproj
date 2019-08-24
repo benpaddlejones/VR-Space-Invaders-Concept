@@ -674,13 +674,17 @@
       <Project>{153C52F3-73A4-BB68-D51A-21FFD56CCC7F}</Project>
       <Name>Microsoft.MixedReality.Toolkit</Name>
     </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Core.Inspectors.csproj">
-      <Project>{9AB91A90-FA48-463C-5094-83FA7239F419}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Core.Inspectors</Name>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.Inspectors.csproj">
+      <Project>{468DBB16-56F3-F460-6D3C-E97EB6E3B68C}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Editor.Inspectors</Name>
     </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Core.Utilities.Editor.csproj">
-      <Project>{0433A734-567C-DDA4-E151-CBE434CDF282}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Core.Utilities.Editor</Name>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.Utilities.csproj">
+      <Project>{89B560E2-77A0-0B38-58AA-D3E2836EDD64}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Editor.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.csproj">
+      <Project>{9BE2BE6C-D22C-E9FF-913B-DC66A412F00A}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.csproj">
       <Project>{1EDB7B80-41D7-70DA-044A-928E45AA4176}</Project>

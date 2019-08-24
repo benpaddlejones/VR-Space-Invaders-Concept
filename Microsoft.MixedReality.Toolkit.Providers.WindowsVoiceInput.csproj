@@ -665,9 +665,9 @@
       <Project>{153C52F3-73A4-BB68-D51A-21FFD56CCC7F}</Project>
       <Name>Microsoft.MixedReality.Toolkit</Name>
     </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Core.Utilities.Async.csproj">
-      <Project>{3EF2CA0F-4996-E524-7755-BBBDA1AF776A}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Core.Utilities.Async</Name>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Async.csproj">
+      <Project>{84DA15A4-C52B-4B39-7BBA-501A8967D50F}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Async</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

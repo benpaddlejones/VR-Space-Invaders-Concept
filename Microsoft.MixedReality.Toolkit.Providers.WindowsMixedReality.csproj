@@ -61,6 +61,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\MixedRealityToolkit.Providers\WindowsMixedReality\BaseWindowsMixedRealitySource.cs" />
+    <Compile Include="Assets\MixedRealityToolkit.Providers\WindowsMixedReality\Extensions\GestureRecognizerExtensions.cs" />
+    <Compile Include="Assets\MixedRealityToolkit.Providers\WindowsMixedReality\Extensions\InteractionSourceExtensions.cs" />
     <Compile Include="Assets\MixedRealityToolkit.Providers\WindowsMixedReality\WindowsMixedRealityArticulatedHand.cs" />
     <Compile Include="Assets\MixedRealityToolkit.Providers\WindowsMixedReality\WindowsMixedRealityController.cs" />
     <Compile Include="Assets\MixedRealityToolkit.Providers\WindowsMixedReality\WindowsMixedRealityDeviceManager.cs" />
@@ -672,9 +674,9 @@
       <Project>{153C52F3-73A4-BB68-D51A-21FFD56CCC7F}</Project>
       <Name>Microsoft.MixedReality.Toolkit</Name>
     </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Utilities.Gltf.csproj">
-      <Project>{E608D5B6-9CBA-4DF7-34BF-DFDB565B1CE9}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Utilities.Gltf</Name>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Gltf.csproj">
+      <Project>{6C1C97DA-F75B-F7BD-3FA3-1A13067D177A}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Gltf</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

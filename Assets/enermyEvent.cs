@@ -11,12 +11,13 @@ public class enermyEvent : MonoBehaviour
     public int rocketSpeed = 10;
     public Rigidbody rocketObject;
     public Transform rocketSpawnPoint;
+    private float randomNumber;
 
 
- 
+
     private void launchProjectile ()
     {
-        if (scoreManager.playGame)
+        if (scoreManager.activeGame)
         {
             Rigidbody b;
             b = Instantiate(rocketObject, new Vector3(rocketSpawnPoint.position.x, rocketSpawnPoint.position.y, rocketSpawnPoint.position.z), rocketSpawnPoint.rotation) as Rigidbody;
@@ -31,7 +32,8 @@ public class enermyEvent : MonoBehaviour
     public void Start()
     {
         particleEffect.SetActive(false);
-        InvokeRepeating("launchProjectile", 2.0f, 3.0f);
+        randomNumber = Random.Range(1.5f, 3.0f);
+        InvokeRepeating("launchProjectile", 1.0f, randomNumber);
     }
 
     public void deactivate()
@@ -47,7 +49,7 @@ public class enermyEvent : MonoBehaviour
             soundEffect.Play();
             enermy.useGravity = true;
             Destroy(this, 10);
-            scoreManager.points = scoreManager.points + 1;
+            scoreManager.points++;
         }
     }
 }
